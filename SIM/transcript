@@ -1,0 +1,112 @@
+# //  Questa Sim-64
+# //  Version 10.4e win64 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do run_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 22:40:41 on Jul 29,2022
+# vlog -reportprogress 300 ../ENV/fifo_interface.sv ../RTL/fifo.v ../TEST/fifo_pkg.sv ../TOP/fifo_top.sv "+incdir+../ENV" "+incdir+../TEST" 
+# -- Compiling interface fifo_inf
+# -- Compiling module FIFO
+# -- Compiling package fifo_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# -- Compiling module fifo_top
+# -- Importing package fifo_pkg
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 22:40:43 on Jul 29,2022, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim -novopt fifo_top "+UVM_TESTNAME=fifo_read_rst_test" 
+# Start time: 22:40:43 on Jul 29,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing G:/My Drive/UVM/SYNC_FIFO_UVM_VERIFICATION/SIM/work.fifo_top
+# Refreshing G:/My Drive/UVM/SYNC_FIFO_UVM_VERIFICATION/SIM/work.fifo_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.fifo_pkg
+# Loading work.fifo_top
+# Refreshing G:/My Drive/UVM/SYNC_FIFO_UVM_VERIFICATION/SIM/work.fifo_inf
+# Loading work.fifo_inf
+# Refreshing G:/My Drive/UVM/SYNC_FIFO_UVM_VERIFICATION/SIM/work.FIFO
+# Loading work.FIFO
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.4e/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test fifo_read_rst_test...
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 885: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 179 ; 179 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 895: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 242 ; 242 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 905: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data =  89 ;  89 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 915: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data =  32 ;  32 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 925: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 129 ; 129 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 935: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 175 ; 175 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 945: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 160 ; 160 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 955: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 180 ; 180 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 965: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 231 ; 231 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 975: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 150 ; 150 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 985: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 254 ; 254 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 995: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data =  55 ;  55 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1005: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data =  13 ;  13 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1015: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 210 ; 210 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1025: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 105 ; 105 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1035: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 189 ; 189 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1045: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data = 121 ; 121 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1055: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data =  97 ;  97 = exp_data
+# UVM_INFO ../ENV/fifo_sb.sv(55) @ 1065: uvm_test_top.env_h.scbh [fifo_sb] SUCCESS !!! read_data =  51 ;  51 = exp_data
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1065: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   23
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [fifo_sb]    19
+# ** Note: $finish    : C:/questasim64_10.4e/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1065 ns  Iteration: 68  Instance: /fifo_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.4e/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# End time: 22:42:31 on Jul 29,2022, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 1

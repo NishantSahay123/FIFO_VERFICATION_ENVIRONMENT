@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/UVM/SYNC_FIFO_UVM_VERIFICATION/SIM
+vFIFO
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7R1O]Ad[oKC1J_@626L?n0
+IDlgz:R^m<95L8;H7XC7zm3
+R0
+w1659114167
+8../RTL/fifo.v
+F../RTL/fifo.v
+L0 5
+Z2 OL;L;10.4e;61
+Z3 !s108 1659114641.000000
+Z4 !s107 ../TEST/fifo_read_rst_test.sv|../TEST/fifo_read_rst_vseqs.sv|../TEST/fifo_read_rst_seqs.sv|../TEST/fifo_write_rst_test.sv|../TEST/fifo_write_rst_vseqs.sv|../TEST/fifo_write_rst_seqs.sv|../TEST/fifo_simple_test.sv|../TEST/fifo_simple_vseqs.sv|../TEST/fifo_simple_seqs.sv|../TEST/fifo_base_test.sv|../ENV/fifo_env.sv|../ENV/fifo_base_vseqs.sv|../ENV/fifo_virtual_seqr.sv|../ENV/fifo_sb.sv|../ENV/fifo_agent.sv|../ENV/fifo_monitor.sv|../ENV/fifo_driver.sv|../ENV/fifo_seqr.sv|../ENV/fifo_base_seqs.sv|../ENV/fifo_trans.sv|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../ENV/global_define.sv|../TOP/fifo_top.sv|../TEST/fifo_pkg.sv|../RTL/fifo.v|../ENV/fifo_interface.sv|
+Z5 !s90 -reportprogress|300|../ENV/fifo_interface.sv|../RTL/fifo.v|../TEST/fifo_pkg.sv|../TOP/fifo_top.sv|+incdir+../ENV|+incdir+../TEST|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 +incdir+../ENV +incdir+../TEST -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@f@i@f@o
+Yfifo_inf
+Z8 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 J2?TKB<ncg;Q^UFBeaHNJ1
+IKfEAm=E@UEjLP6c7YCiEF0
+!s105 fifo_interface_sv_unit
+S1
+R0
+w1659113779
+8../ENV/fifo_interface.sv
+F../ENV/fifo_interface.sv
+L0 3
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+Xfifo_pkg
+R8
+Z9 DXx6 mtiUvm 7 uvm_pkg 0 22 02@e1POGTiN=><];7MkU?0
+VL]e3VoWT7]`Rfb2D:nCA@1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ao]2fRZSl[6=007PCgNVO1
+IL]e3VoWT7]`Rfb2D:nCA@1
+S1
+R0
+w1659114607
+8../TEST/fifo_pkg.sv
+F../TEST/fifo_pkg.sv
+Z10 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z11 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z12 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z13 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z14 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z15 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z16 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z17 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z18 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z19 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z20 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z21 FC:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F../ENV/global_define.sv
+F../ENV/fifo_trans.sv
+F../ENV/fifo_base_seqs.sv
+F../ENV/fifo_seqr.sv
+F../ENV/fifo_driver.sv
+F../ENV/fifo_monitor.sv
+F../ENV/fifo_agent.sv
+F../ENV/fifo_sb.sv
+F../ENV/fifo_virtual_seqr.sv
+F../ENV/fifo_base_vseqs.sv
+F../ENV/fifo_env.sv
+F../TEST/fifo_base_test.sv
+F../TEST/fifo_simple_seqs.sv
+F../TEST/fifo_simple_vseqs.sv
+F../TEST/fifo_simple_test.sv
+F../TEST/fifo_write_rst_seqs.sv
+F../TEST/fifo_write_rst_vseqs.sv
+F../TEST/fifo_write_rst_test.sv
+F../TEST/fifo_read_rst_seqs.sv
+F../TEST/fifo_read_rst_vseqs.sv
+F../TEST/fifo_read_rst_test.sv
+L0 1
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vfifo_top
+R8
+R9
+DXx4 work 8 fifo_pkg 0 22 L]e3VoWT7]`Rfb2D:nCA@1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RZfe92JN`6RN^:m77QDTK0
+Ind[b:5Z?KzVdDGJ4aSi;a0
+!s105 fifo_top_sv_unit
+S1
+R0
+w1659114018
+8../TOP/fifo_top.sv
+F../TOP/fifo_top.sv
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+L0 1
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
